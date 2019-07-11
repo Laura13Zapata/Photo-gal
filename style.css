@@ -5,12 +5,52 @@
 }
 
 .culture{
-  border:1px solid red;
+  border:1px solid pink;
 }
 
 h1{
   text-align: center;
+  font-style:italic;
+
+
 }
 h2{
   text-align: center;
+  font-style: oblique;
+}
+.section-1 img{
+  display:inline-flex;
+  width:400px;
+  height:400px;
+  padding: 30px;
+  justify-content: space-between;
+  object-fit: cover;
+
+
+}
+.section-2 img{
+  display:inline;
+  width:400px;
+  height:400px;
+  padding: 30px;
+
+}
+#girl{
+  margin-left:20px;
+  object-fit: cover;
+}
+#hello{
+  object-fit: cover;
+  margin-left: 20px;
+
+}
+body{
+  background-color: #FEBCAD;
+
+}
+.section-3 img{
+  width:400px;
+  height:400px;
+  padding:30px;
+  object-fit:cover;
 }
